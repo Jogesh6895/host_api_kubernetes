@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: serp-fetcher-fastapi
+  namespace: jg-workers
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: serp-fetcher-fastapi
+  template:
+    metadata:
+      labels:
+        app: serp-fetcher-fastapi
+    spec:
+      containers:
+        - name: serp-fetcher-fastapi
+          image: serp-fetcher-fastapi:v1.0.0
+          ports:
+            - containerPort: 8000

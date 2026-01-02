@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: serp-fetcher-fastapi-ingress
+  namespace: ingress-nginx
+spec:
+  rules:
+    - host: "jg-sample-api.com"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: serp-fetcher-fastapi-service
+                port:
+                  number: 80
