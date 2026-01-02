@@ -163,7 +163,7 @@ HTML_DIRECTORY = Path("/app/html_files")  # Production
 # HTML_DIRECTORY = Path("html_files")    # Local development
 
 # Uncomment to use remote server instead of local files
-# REMOTE_SERVER = "http://192.168.1.100:8080"
+# REMOTE_SERVER = "http://<YOUR-SERVER-IP>:8080"
 ```
 
 ### Kubernetes Configuration
