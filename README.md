@@ -306,10 +306,6 @@ Remove Docker images:
 docker rmi serp-fetcher-fastapi:v1.0.0
 ```
 
-## License
-
-This project is provided as-is for demonstration purposes.
-
 ## Contributing
 
 Contributions are welcome! Please ensure:
@@ -317,3 +313,15 @@ Contributions are welcome! Please ensure:
 - All tests pass
 - Docker image builds successfully
 - Kubernetes deployment works as expected
+
+## 📄 License
+
+This project is a open source project and is available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Jogesh Kumar Ghadai**
+- Email: jogesh6895@gmail.com
+- GitHub: [@Jogesh6895](https://github.com/Jogesh6895)
+
+---
